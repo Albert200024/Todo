@@ -1,0 +1,66 @@
+.conatinerTodo {
+    height: 749px;
+    background: url("https://image.freepik.com/free-photo/open-a-blank-white-notebook-pen-and-cup-of-coffee-on-the-wooden-desk_376538-68.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+
+.todo1{
+    padding-top: 110px;
+}
+
+.todo{
+    width: 25%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.tdod_text{
+    text-align: center;
+    font-size: 90px;
+    color: #D1D0D1;
+    margin: 0;
+}
+
+.todo_inutADD{
+    font-size: 20px;
+    height: 50px;
+    width: 98%; 
+}
+
+.todo_item{
+   display: flex;
+   align-items: center;
+   gap: 10;
+   border: 1px solid #D1D0D1;
+   font-size: 18px;
+}   
+
+.todoItem_info {
+    width: 88%;
+    display: flex;
+    align-items: center;
+}
+
+.todoItem_info p {
+    margin-left: 15px;
+}
+
+.todo_footer{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-around;
+}
+
+.todo_footer button {
+    width: 39%;
+    color: white;
+    height: 35px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(199, 199, 199);
+}
+
